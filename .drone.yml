@@ -6,5 +6,5 @@ steps:
 - name: greeting
   image: php
   commands:
-  -  echo "Hello";
+  -  echo "chelsea";
 

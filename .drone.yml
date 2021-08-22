@@ -9,4 +9,4 @@ platform:
 
 steps:
 - name: build
-  image: golang
+  image: python

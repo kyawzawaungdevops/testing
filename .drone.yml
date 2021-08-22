@@ -3,7 +3,9 @@ kind: pipeline
 type: docker
 name: arm-64
 
-
+platform:
+  os: linux
+  arch: arm64
 
 steps:
 - name: build

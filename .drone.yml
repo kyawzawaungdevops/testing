@@ -1,10 +1,12 @@
-name: drone-test
+
 kind: pipeline
 type: docker
+name: arm-64
+
+platform:
+  os: linux
+  arch: arm64
 
 steps:
-- name: frontend
-  image: node
-  commands:
-  - npm install
-  - npm run
+- name: build
+  image: golang
